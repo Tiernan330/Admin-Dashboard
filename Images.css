@@ -1,0 +1,35 @@
+#Home{
+    background: url('Images/home.svg') no-repeat left top;
+}
+
+#Profile{
+    background: url('Images/card-account-details.svg') no-repeat left top;
+}
+
+#Messages{
+    background: url('Images/message-reply.svg') no-repeat left top;
+}
+
+#History{
+    background: url('Images/clock-time-four.svg') no-repeat left top;
+}
+
+#Tasks{
+    background: url('Images/note-multiple.svg') no-repeat left top;
+}
+
+#Communities{
+    background: url('Images/account-group.svg') no-repeat left top;
+}
+
+#Settings{
+    background: url('Images/cog.svg') no-repeat left top;
+}
+
+#Support{
+    background: url('Images/help-box.svg') no-repeat left top;
+}
+
+#Privacy{
+    background: url('Images/shield-check.svg') no-repeat left top;
+}

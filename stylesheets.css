@@ -1,0 +1,151 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing:border-box; 
+    font-family: "Roboto", sans-serif;
+}
+
+
+.Main_Container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    background-color: gray;
+}
+
+.Content_Container{
+    background-color: whitesmoke;
+    width: 85%;
+    height: 100%;
+}
+
+/* --------------------------------------------------- Header --------------------------------------------------- */
+
+.Content_Header{
+    background-color: white;
+    height: 15%;
+    box-shadow: rgba(202, 202, 202, 0.1) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+/*------------------ Top Header ---------------------*/
+
+.Top_Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+/* ----- Search Bar ----- */
+.Search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    gap: 10px;
+}
+
+.Search_Logo{
+    height: 30px;
+    width: 30px;
+}
+
+.Search_Bar{
+    background-color: lightgrey;
+    border: none;
+    font-size: 24px;
+    padding-left: 25px;
+    width: 100%;
+    height: 50%;
+    border-radius: 25px;
+}
+
+/* ----- Search Bar ----- */
+
+
+.User_Info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+}
+
+.Bell_Icon{
+    height: 30px;
+    width: 30px;
+}
+
+.Profile_Picture{
+    border-radius: 50%;
+    height: 50px;
+}
+
+.Username{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*------------------ Top Header ---------------------*/
+
+/*--------------- Bottom Header --------------------*/
+
+.Bottom_Header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 60%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.Left-Header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#BPFP{
+    height: 80px;
+}
+
+.Welcome_Message{
+    padding-left: 20px;
+}
+
+.welcome{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px
+}
+
+.username{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Header_Buttons{
+    gap: 20px;
+}
+
+button{
+    margin: 10px;
+    color: white;
+    background-color: cornflowerblue;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+/*--------------- Bottom Header --------------------*/
+
+/* --------------------------------------------------- Header --------------------------------------------------- */
