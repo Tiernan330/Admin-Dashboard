@@ -15,7 +15,7 @@
 }
 
 .Content_Container{
-    background-color: whitesmoke;
+    background-color: rgb(226, 232, 240);
     width: 85%;
     height: 100vh;
 }
@@ -25,7 +25,7 @@
 .Content_Header{
     background-color: white;
     height: 15%;
-    box-shadow: rgba(202, 202, 202, 0.1) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(202, 202, 202, 0) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 /*------------------ Top Header ---------------------*/
@@ -45,9 +45,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 50%;
+    width: 75%;
     height: 100%;
-    gap: 10px;
+    gap: 25px;
 }
 
 .Search_Logo{
@@ -56,7 +56,7 @@
 }
 
 .Search_Bar{
-    background-color: lightgrey;
+    background-color: rgb(226, 232, 240);
     border: none;
     font-size: 24px;
     padding-left: 25px;

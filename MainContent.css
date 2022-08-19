@@ -49,11 +49,27 @@
 
 .Info_Container{
     width: 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Announcements{
+    justify-content: center;
+    align-items: center;
+}
+
+.Announcement_Container{
+    background: white;
+    width: 80%;
+    aspect-ratio: 1 / 1.5;
+    border-radius: 10px;
+    box-shadow: 3px 6px 7px 0px rgba(166,166,166,1);
+    list-style-type: none;
+
 }
 
 
 #Info{
-    background-color: bisque;
     color: black;
     font-size: medium;
     font-weight: 300;
